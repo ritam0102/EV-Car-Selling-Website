@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [],
+  "rules": {
+    "no-const-assign": "error",
+    "no-obj-calls": "error",
+    "no-import-assign": "error",
+    "constructor-super": "error",
+    "no-this-before-super": "error",
+    "no-unused-vars": "off"
+  }
+}
