@@ -75,7 +75,7 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-400 dark:text-slate-500 text-sm">
-            © 2026 Zenvy EV Inc. All rights reserved.
+            © 2026 Zenvy Inc. All rights reserved.
           </p>
           <div className="flex gap-8">
             <Link href="#" className="text-slate-400 dark:text-slate-500 text-sm hover:text-slate-600 dark:hover:text-slate-300">Privacy Policy</Link>
