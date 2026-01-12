@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-	devIndicators: false, // ✅ disables Next.js dev tools UI
+	reactStrictMode: true,
 
-	turbopack: {},
+	devIndicators: false,
 
 	images: {
 		remotePatterns: [
@@ -16,10 +16,6 @@ const nextConfig = {
 
 	typescript: {
 		ignoreBuildErrors: true,
-	},
-
-	eslint: {
-		ignoreDuringBuilds: true,
 	},
 
 	allowedDevOrigins: ["*.theopenbuilder.com"],
